@@ -10,6 +10,7 @@ namespace iakademi_WEBAPI_PUBLISH.Models.MVVM
         //bağlantı ayarı
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+
             var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
 
             var configuration = builder.Build();
