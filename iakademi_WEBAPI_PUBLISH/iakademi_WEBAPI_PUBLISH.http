@@ -1,0 +1,6 @@
+@iakademi_WEBAPI_PUBLISH_HostAddress = http://localhost:5206
+
+GET {{iakademi_WEBAPI_PUBLISH_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
